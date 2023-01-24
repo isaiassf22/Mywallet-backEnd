@@ -50,7 +50,7 @@ export async function tokenRouteValidation(req,res,next){
   }
 
   try {
-    const session = await sessionsCollection.findOne({ token });
+    const session = await sessionsCollection?.findOne({ token });
     if (!session) {
       return res.sendStatus(401);
     }

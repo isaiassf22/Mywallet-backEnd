@@ -5,6 +5,6 @@ import { tokenRouteValidation } from "../middlewares/validationAuth.js";
 const router = Router()
 
 router.post("/transactions",tokenRouteValidation,transactionValidation, addTransaction)
-router.get("/transaction", boxTransactions)
+router.get("/transactions",tokenRouteValidation, boxTransactions)
 
 export default router
