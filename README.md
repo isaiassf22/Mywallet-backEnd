@@ -2,7 +2,7 @@
 
 Design of a wallet manager application (for mobile) ! With the right to register, login and many libraries !
 
-<img src="./src/assets/MyWallet.gif" />
+<img src="./src/images/MyWallet.gif" />
 
 Try it out now at https://mywallet-front-82nez58km-isaias-s-projects.vercel.app/
 Check out the FrontEnd on https://github.com/isaiassf22/Mywallet-frontEnd
