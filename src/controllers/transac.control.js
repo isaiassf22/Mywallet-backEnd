@@ -6,6 +6,7 @@ export async function addTransaction(req,res){
 
     try {
         await transactionsCollection.insertOne(transaction)
+        return res.status(201).send("congrats!!")
     } catch (error) {
         console.log(error)
         res.status(500)
