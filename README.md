@@ -37,7 +37,7 @@ The following tools and frameworks were used in the construction of the project,
 ## How to run
 
 1. Clone this repository
-2. Install dependencies
+2. Install  all dependencies
 ```bash
 npm i
 ```
