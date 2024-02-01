@@ -1,6 +1,7 @@
 # MyWalletBack
 
 Design of a wallet manager application! You can register, describe earns/expenses, and get the amount!
+It's very useful to balance expenses and save money.
 
 <img src="./src/images/MyWallet.gif" />
 
